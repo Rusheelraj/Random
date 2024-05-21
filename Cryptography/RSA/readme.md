@@ -30,6 +30,11 @@ The user inputs a message to be encrypted. Each character in the message is conv
 
 The encrypted message is decrypted using the private key (`D`). Each character in the encrypted message is decrypted by raising its ASCII value to the power of `D` modulo `N`.
 
+### Executing the code:
+
+![image](https://github.com/Rusheelraj/Random/assets/30828807/8d10f6b4-84b5-4710-a977-dbf9adcac17a)
+
+
 ### Security
 
 RSA encryption is secure because the difficulty of factoring large numbers makes it computationally infeasible to derive the private key (`D`) from the public key (`E`) and modulus (`N`).
